@@ -16,7 +16,6 @@ GPLv3
             var time = now.getTime();
             var expireTime = time + 1000;
             now.setTime(expireTime);
-            var tempExp = 'Wed, 31 Oct 2012 08:50:17 GMT';
             document.cookie = 'cookie=cooldown;expires='+now.toGMTString()+';path=/';
         }
         
